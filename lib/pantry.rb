@@ -6,9 +6,11 @@ class Pantry
   end
 
   def stock_check(ingredient)
-    amount = 0
-    @stock.each { |ingredient| amount += ingredient.count }
-    amount
+    @stock[ingredient]
+  end
+
+  def restock(ingredient, quantity)
+    @stock[ingredient] += quantity
   end
 
 end
