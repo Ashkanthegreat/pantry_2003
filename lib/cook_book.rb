@@ -6,7 +6,7 @@ class CookBook
   end
 
   def add_recipe(recipe)
-    @recipes << recipe 
+    @recipes << recipe
   end
 
 end

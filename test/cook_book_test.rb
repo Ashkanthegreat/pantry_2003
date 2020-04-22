@@ -33,4 +33,5 @@ class CookBookTest < Minitest::Test
     assert_equal [@recipe1, @recipe2], @cookbook.recipes
   end
 
+
 end
